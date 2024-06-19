@@ -1,9 +1,11 @@
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Sets {
-
+Set<String> coresDaBandeiraDoBrasil = new TreeSet<>(Arrays.asList("verde", "amarelo", "azul", "branco"));
     private static Set<Integer> numeros = new HashSet<>();
 
     private static void adicionar(int numero) {

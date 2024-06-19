@@ -1,0 +1,6 @@
+"mvn" para execultar comandos maven
+
+Gerar um arquivo maven:
+
+mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+
