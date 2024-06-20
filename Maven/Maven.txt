@@ -1,6 +1,74 @@
 "mvn" para execultar comandos maven
 
-Gerar um arquivo maven:
+Gerar um arquivo maven(antes faça o cd "caminho do diretorio" para salvar sua pasta no local desejado):
 
-mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=[nome do pacote] -DartifactId=[Nome da pasta] -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+
+Explicação do comando acima:
+
+---------------------------------------------------
+mvn archetype:generate:
+
+Este é o comando Maven para gerar um novo projeto baseado em um arquétipo. Um arquétipo é um modelo de projeto que contém uma estrutura de diretórios e arquivos básicos.
+-DgroupId=one.digitalinnovation:
+
+Define o identificador do grupo (groupId) do projeto. O groupId é usado para identificar de forma única o projeto em um repositório Maven. Geralmente, segue a convenção de nomenclatura de pacotes Java (como com.exemplo.projeto).
+-DartifactId=quick-start-maven:
+
+Define o identificador do artefato (artifactId) do projeto. O artifactId é o nome do projeto ou módulo e será usado para nomear o arquivo JAR/ZIP gerado.
+-Darchetype=maven-archetype-quickstart:
+
+Especifica o arquétipo a ser usado para a geração do projeto. O maven-archetype-quickstart é um arquétipo padrão do Maven que cria um projeto básico com uma estrutura mínima, incluindo um arquivo pom.xml, um diretório de fontes (src/main/java) e um diretório de testes (src/test/java).
+-DinteractiveMode=false:
+
+Define que o comando deve ser executado em modo não interativo. Em outras palavras, todas as informações necessárias para gerar o projeto são fornecidas diretamente na linha de comando, e o Maven não solicitará nenhuma entrada adicional do usuário durante a execução.
+Exemplo de uso:
+Quando você executa este comando, o Maven irá:
+
+Baixar o arquétipo maven-archetype-quickstart do repositório central do Maven (se ainda não estiver em seu repositório local).
+Usar o arquétipo para criar uma nova estrutura de projeto.
+Preencher o pom.xml do novo projeto com os valores de groupId, artifactId e outras informações fornecidas.
+Após a execução bem-sucedida do comando, você terá uma estrutura de projeto similar a esta:
+
+sql
+Copiar código
+quick-start-maven/
+│
+├── pom.xml
+└── src/
+    ├── main/
+    │   └── java/
+    │       └── one/
+    │           └── digitalinnovation/
+    │               └── App.java
+    └── test/
+        └── java/
+            └── one/
+                └── digitalinnovation/
+                    └── AppTest.java
+---------------------------------------------------------
+
+Comandos:
+
+mvn compile - compila todos os arquivos javas;
+mvn test - verifica todos os codigos testes e mostra as informações de testes;
+mvn package - cria um .jar da sua aplicação;
+mvn clean - apaga a pasta target;
+mvn install - publica localmente o seu projeto(dependencia) para reutilizar em outros projetos;
+
+Diferentes tipos de projetos:
+
+Para fazer direntes tipos pesquise sobre maven archetypes list
+
+
+
+-Para a excução do Maven é necessario o arquivo POM.xml;
+-O POM padrão que aparece na pasta faz herança com o Super POM;
+-Para adicionar uma dependencia é necessario adicionar o comando <dependency> em seu arquivo pom.xml e compilar;
+-Na pasta .m2 voce encontra suas dependencias
+
+Uso de um plugin:
+
+para execultar um plugin primeiro precisa colocar ele no POM.xml
+mvn [plugin-name]:[goal-name]
 
