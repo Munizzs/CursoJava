@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad3c20c0-5307-4b7e-b924-d85fb42582d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/main/java/estudos/springboot/jpa/SpringBootComJpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/main/java/estudos/springboot/jpa/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/main/java/estudos/springboot/jpa/controller/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/main/java/estudos/springboot/jpa/entity/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/main/java/estudos/springboot/jpa/http/HttpStatus/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/main/java/estudos/springboot/jpa/jpaRepository/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.jpa/src/test/java/estudos/springboot/jpa/SpringBootComJpaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/src/main/java/estudo/springboot/swagger/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/src/main/java/estudo/springboot/swagger/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/src/main/java/estudo/springboot/swagger/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot.swagger/src/test/java/estudo/springboot/swagger/ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2iW2do2ys7akarTeoNIDkiiLPuT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpringSecurityApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ideapad/Documents/IT/Programation/Estudo/DIO/BootCamp_JavaSantander/Aulas/SpringFramework/spring-security"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ideapad\Documents\IT\Programation\Estudo\DIO\BootCamp_JavaSantander\Aulas\spring-security\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad3c20c0-5307-4b7e-b924-d85fb42582d3" name="Changes" comment="" />
+      <created>1719592102369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719592102369</updated>
+    </task>
+    <servers />
+  </component>
+</project>
